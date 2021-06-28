@@ -28,7 +28,6 @@
         "symfony/form": "^4.4.20|^5.3",
         "symfony/asset": "^4.4.20|^5.3",
         "symfony/validator": "^4.4.20|^5.3",
-        "ext-posix": "*",
         "nesbot/carbon": "^2.43",
         "symfony/dotenv": "^4.4.20|^5.3",
         "symfony/lock": "^4.4.20|^5.3",
@@ -37,7 +36,6 @@
         "symfony/dependency-injection": "^4.4.20|^5.3",
         "symfony/property-access": "^4.4.20|^5.3",
         "symfony/http-kernel": "^4.4.20|^5.3",
-        "symfony/inflector": "^4.4.20|^5.3",
         "symfony/yaml": "^4.4.20|^5.3",
         "lorisleiva/cron-translator": "^0.2"
     },
@@ -57,7 +55,8 @@
         "ext-pcntl": "For using the scheduler daemon",
         "symfony/notifier": "Send Notifications (E-Mails) ^5.3",
         "twig/cssinliner-extra": "Needed for E-Mail Notification ^3.0",
-        "twig/inky-extra": "Needed for E-Mail Notification ^3.0"
+        "twig/inky-extra": "Needed for E-Mail Notification ^3.0",
+        "ext-posix": "*"
     },
     "autoload": {
         "psr-4": {
